@@ -1,0 +1,54 @@
+# ============================================
+# Smart Document AI Assistant - Dependencies
+# ============================================
+# Install all dependencies with:
+#   pip install -r requirements.txt
+# ============================================
+
+# --- Web Framework ---
+# FastAPI: Modern web framework for building APIs
+# Uvicorn: ASGI server for running FastAPI
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.2
+
+# --- PDF Processing ---
+# PyPDF: PDF text extraction
+# LangChain's PyPDFLoader wraps pypdf
+pypdf==3.17.4
+
+# --- LangChain Ecosystem ---
+# LangChain: Framework for building LLM applications
+# LangChain Community: Community-maintained integrations
+# LangChain OpenAI: OpenAI API integration
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-openai==0.0.2
+
+# --- Vector Database ---
+# ChromaDB: Open-source vector database for embedding storage
+chromadb==0.4.22
+
+# --- Embeddings ---
+# sentence-transformers: Free local embedding models
+# HuggingFace Hub: Access to HuggingFace models
+sentence-transformers==2.2.2
+huggingface-hub==0.20.2
+
+# --- Transformers ---
+# HuggingFace Transformers: For local LLM inference
+transformers==4.36.2
+torch==2.1.2
+torchvision==0.16.2
+torchaudio==2.1.2
+accelerate==0.25.0
+
+# --- Frontend ---
+# Streamlit: Web UI framework for AI apps
+streamlit==1.29.0
+requests==2.31.0
+
+# --- Utilities ---
+# python-dotenv: Load environment variables from .env file
+python-dotenv==1.0.0
